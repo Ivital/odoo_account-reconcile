@@ -16,15 +16,13 @@ msgstr ""
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: \n"
-"Plural-Forms: nplurals=3; plural=(n%10==1 && n%100!=11 ? 0 : n%10>=2 && "
-"n%10<=4 && (n%100<10 || n%100>=20) ? 1 : 2);\n"
+"Plural-Forms: nplurals=3; plural=(n%10==1 && n%100!=11 ? 0 : n%10>=2 && n%10<=4 && (n%100<10 || n%100>=20) ? 1 : 2);\n"
 
 #. module: account_move_base_import
 #. odoo-python
 #: code:addons/account_move_base_import/models/account_move.py:0
 msgid ""
-"%(completion_date)s Account Move %(move_name)s has %(num_imported)s/"
-"%(number_line)s lines completed by %(user_name)s \n"
+"%(completion_date)s Account Move %(move_name)s has %(num_imported)s/%(number_line)s lines completed by %(user_name)s \n"
 "%(error_msg)s\n"
 "%(log)s\n"
 msgstr ""
@@ -181,8 +179,7 @@ msgstr "Дата створення"
 #. odoo-python
 #: code:addons/account_move_base_import/parser/file_parser.py:0
 msgid ""
-"Date format is not valid. It should be YYYY-MM-DD for column: %(rule)s "
-"value: %(line_value)s \n"
+"Date format is not valid. It should be YYYY-MM-DD for column: %(rule)s value: %(line_value)s \n"
 " \n"
 " \n"
 " Please check the line with ref: %(ref_value)s \n"
@@ -194,8 +191,7 @@ msgstr ""
 #. odoo-python
 #: code:addons/account_move_base_import/parser/file_parser.py:0
 msgid ""
-"Date format is not valid. Please modify the cell formatting to date format "
-"for column: %(rule)s value: %(line_value)s\n"
+"Date format is not valid. Please modify the cell formatting to date format for column: %(rule)s value: %(line_value)s\n"
 " Please check the line with ref: %(value_ref)s\n"
 " \n"
 " Detail: %(error)s"
@@ -211,10 +207,10 @@ msgstr "Назва для відображення"
 #: model:ir.model.fields,help:account_move_base_import.field_res_partner__bank_statement_label
 #: model:ir.model.fields,help:account_move_base_import.field_res_users__bank_statement_label
 msgid ""
-"Enter the various label found on your bank statement separated by a ; If one "
-"of this label is include in the bank statement line, the partner will be "
-"automatically filled (as long as you use this method/rules in your statement "
-"profile)."
+"Enter the various label found on your bank statement separated by a ; If one"
+" of this label is include in the bank statement line, the partner will be "
+"automatically filled (as long as you use this method/rules in your statement"
+" profile)."
 msgstr ""
 
 #. module: account_move_base_import
@@ -288,7 +284,7 @@ msgstr ""
 #: model:ir.actions.act_window,name:account_move_base_import.move_importer_action
 #: model:ir.ui.menu,name:account_move_base_import.move_importer_menu
 msgid "Import Batch File"
-msgstr ""
+msgstr "Імпорт пакетного файлу"
 
 #. module: account_move_base_import
 #: model:ir.model,name:account_move_base_import.model_credit_statement_import
@@ -462,7 +458,7 @@ msgstr ""
 #: model:ir.ui.menu,name:account_move_base_import.menu_action_move_completion_rule_list_menu
 #: model_terms:ir.ui.view,arch_db:account_move_base_import.move_completion_rule_view_form
 msgid "Move Completion Rule"
-msgstr ""
+msgstr "Правило завершення переміщення"
 
 #. module: account_move_base_import
 #: model:ir.actions.act_window,name:account_move_base_import.action_move_completion_rule_list
@@ -472,7 +468,7 @@ msgstr ""
 #. module: account_move_base_import
 #: model:ir.model.fields,field_description:account_move_base_import.field_account_move_completion_rule__name
 msgid "Name"
-msgstr "Name"
+msgstr "Назва"
 
 #. module: account_move_base_import
 #. odoo-python
@@ -567,8 +563,8 @@ msgstr ""
 #. odoo-python
 #: code:addons/account_move_base_import/models/account_move.py:0
 msgid ""
-"Statement ID %(move_name)s auto-completed for %(num_imported)s/"
-"%(number_line)s lines completed"
+"Statement ID %(move_name)s auto-completed for "
+"%(num_imported)s/%(number_line)s lines completed"
 msgstr ""
 
 #. module: account_move_base_import
@@ -609,8 +605,8 @@ msgstr ""
 #. module: account_move_base_import
 #: model:ir.model.fields,help:account_move_base_import.field_account_journal__split_counterpart
 msgid ""
-"Two counterparts will be automatically created : one for the refunds and one "
-"for the payments"
+"Two counterparts will be automatically created : one for the refunds and one"
+" for the payments"
 msgstr ""
 
 #. module: account_move_base_import
@@ -648,8 +644,8 @@ msgstr ""
 #. module: account_move_base_import
 #: model:ir.model.fields,help:account_move_base_import.field_account_move_line__already_completed
 msgid ""
-"When this checkbox is ticked, the auto-completion process/button will ignore "
-"this line."
+"When this checkbox is ticked, the auto-completion process/button will ignore"
+" this line."
 msgstr ""
 
 #~ msgid "Last Modified on"
