@@ -129,3 +129,13 @@ msgid ""
 "differents) on reconcile."
 msgstr ""
 "Позначте, якщо не потрібно обмежувати різних партнерів під час звіряння."
+
+#. module: account_reconcile_restrict_partner_mismatch
+#. odoo-python
+#: code:addons/account_reconcile_restrict_partner_mismatch/models/account_move_line.py:0
+msgid ""
+"The partner has to be the same on all lines for receivable and payable "
+"accounts!"
+msgstr ""
+"Партнер має бути однаковим у всіх рядках рахунків дебіторської та "
+"кредиторської заборгованості!"

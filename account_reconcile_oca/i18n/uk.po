@@ -608,3 +608,51 @@ msgstr "Агрегація для представлення звіряння"
 #: model:ir.model,name:account_reconcile_oca.model_account_account_reconcile_data
 msgid "Reconcile data model to store user info"
 msgstr "Модель даних звіряння для зберігання інформації користувача"
+
+#. module: account_reconcile_oca
+#. odoo-javascript
+#: code:addons/account_reconcile_oca/static/src/xml/reconcile.xml:0
+msgid "Add all"
+msgstr "Додати все"
+
+#. module: account_reconcile_oca
+#. odoo-javascript
+#: code:addons/account_reconcile_oca/static/src/xml/reconcile.xml:0
+msgid "Amount in currency"
+msgstr "Сума у валюті"
+
+#. module: account_reconcile_oca
+#. odoo-javascript
+#: code:addons/account_reconcile_oca/static/src/xml/reconcile.xml:0
+msgid "Global Balance"
+msgstr "Глобальний баланс"
+
+#. module: account_reconcile_oca
+#. odoo-python
+#: code:addons/account_reconcile_oca/models/account_bank_statement_line.py:0
+msgid "No supense lines are allowed when reconciling"
+msgstr "Під час узгодження не допускаються рядки призупинення"
+
+#. module: account_reconcile_oca
+#. odoo-javascript
+#: code:addons/account_reconcile_oca/static/src/xml/reconcile.xml:0
+msgid "Open Balance"
+msgstr "Відкритий баланс"
+
+#. module: account_reconcile_oca
+#. odoo-python
+#: code:addons/account_reconcile_oca/models/account_bank_statement_line.py:0
+msgid "Reversal of: %s"
+msgstr "Сторнування: %s"
+
+#. module: account_reconcile_oca
+#. odoo-python
+#: code:addons/account_reconcile_oca/models/account_journal.py:0
+msgid "Well done! Everything has been reconciled"
+msgstr "Чудово! Усе узгоджено"
+
+#. module: account_reconcile_oca
+#. odoo-python
+#: code:addons/account_reconcile_oca/models/account_move_line.py:0
+msgid "You can only reconcile journal items belonging to the same account."
+msgstr "Можна узгоджувати лише елементи журналу, що належать одному рахунку."

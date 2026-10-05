@@ -245,3 +245,58 @@ msgstr "Майстер ручного звіряння"
 #: model:ir.model.fields,help:account_reconcile_wizard.field_account_manual_reconcile_wizard__reconcile_model_id
 msgid "Select a reconciliation model to auto-load lines"
 msgstr "Виберіть модель звіряння для автоматичного завантаження рядків"
+
+#. module: account_reconcile_wizard
+#. odoo-python
+#: code:addons/account_reconcile_wizard/wizard/account_manual_reconcile_wizard.py:0
+msgid "All selected lines must be from the same company."
+msgstr "Усі вибрані рядки мають належати одній компанії."
+
+#. module: account_reconcile_wizard
+#. odoo-python
+#: code:addons/account_reconcile_wizard/wizard/account_manual_reconcile_wizard.py:0
+msgid "Cannot reconcile already reconciled lines."
+msgstr "Не можна узгодити вже узгоджені рядки."
+
+#. module: account_reconcile_wizard
+#. odoo-python
+#: code:addons/account_reconcile_wizard/wizard/account_manual_reconcile_wizard.py:0
+msgid "Debit and credit amounts must be positive."
+msgstr "Суми дебету й кредиту мають бути додатними."
+
+#. module: account_reconcile_wizard
+#. odoo-python
+#: code:addons/account_reconcile_wizard/wizard/account_manual_reconcile_wizard.py:0
+msgid "The selected lines have been successfully reconciled."
+msgstr "Вибрані рядки успішно узгоджено."
+
+#. module: account_reconcile_wizard
+#. odoo-python
+#: code:addons/account_reconcile_wizard/wizard/account_manual_reconcile_wizard.py:0
+msgid "The total of write-off lines must balance the difference of %s."
+msgstr "Загальна сума рядків списання має врівноважувати різницю %s."
+
+#. module: account_reconcile_wizard
+#. odoo-python
+#: code:addons/account_reconcile_wizard/wizard/account_manual_reconcile_wizard.py:0
+msgid "Transfer from %s"
+msgstr "Перевести з %s"
+
+#. module: account_reconcile_wizard
+#. odoo-python
+#: code:addons/account_reconcile_wizard/wizard/account_manual_reconcile_wizard.py:0
+msgid "Transfer to %s"
+msgstr "Перевести до %s"
+
+#. module: account_reconcile_wizard
+#. odoo-python
+#: code:addons/account_reconcile_wizard/wizard/account_manual_reconcile_wizard.py:0
+msgid "You can only reconcile entries from up to 2 different accounts."
+msgstr "Можна узгоджувати записи не більш ніж із 2 різних рахунків."
+
+#. module: account_reconcile_wizard
+#. odoo-python
+#: code:addons/account_reconcile_wizard/wizard/account_manual_reconcile_wizard.py:0
+msgid ""
+"You cannot reconcile entries that belong to different partners and accounts."
+msgstr "Не можна узгоджувати записи, що належать різним партнерам і рахункам."

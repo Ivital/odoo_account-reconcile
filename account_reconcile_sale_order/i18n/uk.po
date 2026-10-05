@@ -77,3 +77,9 @@ msgstr ""
 "Тому якщо мітка рядка виписки — 'hello world', збігами в такому порядку "
 "вважатимуться замовлення на продаж із назвами 'hello', 'world', 'some name "
 "containing hello', 'some name containing world'."
+
+#. module: account_reconcile_sale_order
+#. odoo-python
+#: code:addons/account_reconcile_sale_order/models/account_bank_statement_line.py:0
+msgid "Sales Order %s"
+msgstr "Замовлення на продаж %s"

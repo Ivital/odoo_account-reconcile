@@ -26,6 +26,7 @@ msgid ""
 "A mass reconcile is already ongoing for this account, please try again "
 "later."
 msgstr ""
+"Для цього рахунку вже виконується масове узгодження, спробуйте пізніше."
 
 #. module: account_mass_reconcile
 #. odoo-python
@@ -35,6 +36,8 @@ msgid ""
 "A matcher %(mkey)s is compared with a matcher %(omkey)s, the _matchers and "
 "_opposite_matchers are probably wrong"
 msgstr ""
+"Зіставлювач %(mkey)s порівнюється із зіставлювачем %(omkey)s; імовірно, "
+"_matchers та _opposite_matchers налаштовано неправильно"
 
 #. module: account_mass_reconcile
 #: model_terms:ir.actions.act_window,help:account_mass_reconcile.action_account_mass_reconcile
@@ -126,14 +129,14 @@ msgstr "Історія автоматичного масового звірен�
 #: code:addons/account_mass_reconcile/models/base_reconciliation.py:0
 #, python-format
 msgid "Automatic Write Off"
-msgstr ""
+msgstr "Автоматичне списання"
 
 #. module: account_mass_reconcile
 #. odoo-python
 #: code:addons/account_mass_reconcile/models/base_reconciliation.py:0
 #, python-format
 msgid "Automatic writeoff"
-msgstr ""
+msgstr "Автоматичне списання"
 
 #. module: account_mass_reconcile
 #: model_terms:ir.actions.act_window,help:account_mass_reconcile.action_account_mass_reconcile
@@ -626,14 +629,14 @@ msgstr "Поле послідовності використовується д�
 #: code:addons/account_mass_reconcile/models/mass_reconcile.py:0
 #, python-format
 msgid "There is no history of reconciled items on the task: %s."
-msgstr ""
+msgstr "Для завдання %s немає історії узгоджених елементів."
 
 #. module: account_mass_reconcile
 #. odoo-python
 #: code:addons/account_mass_reconcile/models/mass_reconcile.py:0
 #, python-format
 msgid "There was an error during reconciliation : %s"
-msgstr ""
+msgstr "Під час узгодження сталася помилка: %s"
 
 #. module: account_mass_reconcile
 #: model_terms:ir.ui.view,arch_db:account_mass_reconcile.view_mass_reconcile_history_search
@@ -655,7 +658,7 @@ msgstr "Неузгоджені елементи"
 #: code:addons/account_mass_reconcile/models/mass_reconcile.py:0
 #, python-format
 msgid "Unreconciled items"
-msgstr ""
+msgstr "Незвірені позиції"
 
 #. module: account_mass_reconcile
 #: model:ir.model.fields,field_description:account_mass_reconcile.field_account_mass_reconcile__website_message_ids
