@@ -17,3 +17,8 @@ msgstr ""
 #: model_terms:ir.ui.view,arch_db:account_partner_reconcile.res_partner_view_buttons
 msgid "Match Payables"
 msgstr "Зіставити кредиторську заборгованість"
+
+#. module: account_partner_reconcile
+#: model_terms:ir.ui.view,arch_db:account_partner_reconcile.res_partner_view_buttons
+msgid "Match Receivables"
+msgstr "Зіставити дебіторську заборгованість"

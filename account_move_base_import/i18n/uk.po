@@ -35,7 +35,7 @@ msgstr ""
 #. module: account_move_base_import
 #: model_terms:ir.ui.view,arch_db:account_move_base_import.view_account_move_filter
 msgid "Account move that should be completed manually"
-msgstr ""
+msgstr "Бухгалтерський запис, який потрібно завершити вручну"
 
 #. module: account_move_base_import
 #: model:ir.model.fields,field_description:account_move_base_import.field_account_journal__message_needaction
@@ -62,17 +62,17 @@ msgstr "Автозавершено"
 #. module: account_move_base_import
 #: model_terms:ir.ui.view,arch_db:account_move_base_import.journal_importer_view_form
 msgid "Auto-Completion Rules"
-msgstr ""
+msgstr "Правила автозаповнення"
 
 #. module: account_move_base_import
 #: model_terms:ir.ui.view,arch_db:account_move_base_import.journal_importer_view_form
 msgid "Auto-Completion related infos"
-msgstr ""
+msgstr "Пов’язана інформація автозаповнення"
 
 #. module: account_move_base_import
 #: model:ir.model.fields,field_description:account_move_base_import.field_account_journal__rule_ids
 msgid "Auto-completion rules"
-msgstr ""
+msgstr "Правила автозаповнення"
 
 #. module: account_move_base_import
 #: model:ir.model.fields,field_description:account_move_base_import.field_res_partner__bank_statement_label
@@ -122,7 +122,7 @@ msgstr ""
 #. module: account_move_base_import
 #: model:ir.model.fields,field_description:account_move_base_import.field_account_journal__commission_analytic_account_id
 msgid "Commission Analytic Account"
-msgstr ""
+msgstr "Аналітичний рахунок комісії"
 
 #. module: account_move_base_import
 #: model:ir.model.fields,field_description:account_move_base_import.field_account_journal__commission_account_id
@@ -161,7 +161,7 @@ msgstr ""
 #. module: account_move_base_import
 #: model:ir.model.fields,field_description:account_move_base_import.field_account_journal__create_counterpart
 msgid "Create Counterpart"
-msgstr ""
+msgstr "Створити кореспондуючий запис"
 
 #. module: account_move_base_import
 #: model:ir.model.fields,field_description:account_move_base_import.field_account_move_completion_rule__create_uid
@@ -212,6 +212,10 @@ msgid ""
 "automatically filled (as long as you use this method/rules in your statement"
 " profile)."
 msgstr ""
+"Введіть різні мітки, що зустрічаються у банківській виписці, розділяючи їх "
+"символом ;. Якщо одна з цих міток є в рядку банківської виписки, контрагент "
+"буде заповнений автоматично (за умови використання цього методу/правил у "
+"профілі виписки)."
 
 #. module: account_move_base_import
 #: model:ir.model.fields,field_description:account_move_base_import.field_credit_statement_import__file_name
@@ -234,27 +238,27 @@ msgstr ""
 #. module: account_move_base_import
 #: model:ir.model.fields.selection,name:account_move_base_import.selection__account_move_completion_rule__function_to_call__get_from_name_and_invoice
 msgid "From line name (based on customer invoice number)"
-msgstr ""
+msgstr "З назви рядка (на основі номера рахунка клієнта)"
 
 #. module: account_move_base_import
 #: model:ir.model.fields.selection,name:account_move_base_import.selection__account_move_completion_rule__function_to_call__get_from_name_and_partner_field
 msgid "From line name (based on partner field)"
-msgstr ""
+msgstr "З назви рядка (на основі поля контрагента)"
 
 #. module: account_move_base_import
 #: model:ir.model.fields.selection,name:account_move_base_import.selection__account_move_completion_rule__function_to_call__get_from_name_and_partner_name
 msgid "From line name (based on partner name)"
-msgstr ""
+msgstr "З назви рядка (на основі назви контрагента)"
 
 #. module: account_move_base_import
 #: model:ir.model.fields.selection,name:account_move_base_import.selection__account_move_completion_rule__function_to_call__get_from_name_and_supplier_invoice
 msgid "From line name (based on supplier invoice number)"
-msgstr ""
+msgstr "З назви рядка (на основі номера рахунка постачальника)"
 
 #. module: account_move_base_import
 #: model:ir.model.fields.selection,name:account_move_base_import.selection__account_journal__import_type__generic_csvxls_so
 msgid "Generic .csv/.xls based on SO Name"
-msgstr ""
+msgstr "Універсальний .csv/.xls на основі назви SO"
 
 #. module: account_move_base_import
 #: model:ir.model.fields,field_description:account_move_base_import.field_account_journal__has_message
@@ -294,17 +298,17 @@ msgstr ""
 #. module: account_move_base_import
 #: model_terms:ir.ui.view,arch_db:account_move_base_import.move_importer_view
 msgid "Import Parameters Summary"
-msgstr ""
+msgstr "Підсумок параметрів імпорту"
 
 #. module: account_move_base_import
 #: model_terms:ir.ui.view,arch_db:account_move_base_import.journal_importer_view_form
 msgid "Import batch file"
-msgstr ""
+msgstr "Файл пакетного імпорту"
 
 #. module: account_move_base_import
 #: model:ir.model.fields,field_description:account_move_base_import.field_credit_statement_import__journal_id
 msgid "Import configuration parameter"
-msgstr ""
+msgstr "Параметр конфігурації імпорту"
 
 #. module: account_move_base_import
 #: model_terms:ir.ui.view,arch_db:account_move_base_import.move_importer_view
@@ -319,7 +323,7 @@ msgstr "Імпортувати переміщення"
 #. module: account_move_base_import
 #: model_terms:ir.ui.view,arch_db:account_move_base_import.journal_importer_view_form
 msgid "Import related infos"
-msgstr ""
+msgstr "Імпортувати пов’язану інформацію"
 
 #. module: account_move_base_import
 #. odoo-python
@@ -370,7 +374,7 @@ msgstr "Журнал, що використовується для заверш�
 #. module: account_move_base_import
 #: model:ir.model.fields,field_description:account_move_base_import.field_account_journal__used_for_import
 msgid "Journal used for import"
-msgstr ""
+msgstr "Журнал для імпорту"
 
 #. module: account_move_base_import
 #: model:ir.model.fields,field_description:account_move_base_import.field_account_journal__last_import_date
@@ -392,7 +396,7 @@ msgstr "Останнє оновлення"
 #. module: account_move_base_import
 #: model:ir.model.fields,field_description:account_move_base_import.field_account_journal__launch_import_completion
 msgid "Launch completion after import"
-msgstr ""
+msgstr "Запустити завершення після імпорту"
 
 #. module: account_move_base_import
 #. odoo-python
@@ -463,7 +467,7 @@ msgstr "Правило завершення переміщення"
 #. module: account_move_base_import
 #: model:ir.actions.act_window,name:account_move_base_import.action_move_completion_rule_list
 msgid "Move Completion Rules"
-msgstr ""
+msgstr "Правила завершення руху"
 
 #. module: account_move_base_import
 #: model:ir.model.fields,field_description:account_move_base_import.field_account_move_completion_rule__name
@@ -542,12 +546,12 @@ msgstr "Дебіторський/кредиторський рахунок"
 #. module: account_move_base_import
 #: model_terms:ir.ui.view,arch_db:account_move_base_import.move_completion_rule_view_form
 msgid "Related Profiles"
-msgstr ""
+msgstr "Пов’язані профілі"
 
 #. module: account_move_base_import
 #: model:ir.model.fields,field_description:account_move_base_import.field_account_move_completion_rule__journal_ids
 msgid "Related journals"
-msgstr ""
+msgstr "Пов’язані журнали"
 
 #. module: account_move_base_import
 #: model:ir.model.fields,field_description:account_move_base_import.field_account_move_completion_rule__sequence
@@ -557,7 +561,7 @@ msgstr "Послідовність"
 #. module: account_move_base_import
 #: model:ir.model.fields,field_description:account_move_base_import.field_account_journal__split_counterpart
 msgid "Split Counterpart"
-msgstr ""
+msgstr "Розділити кореспондуючий запис"
 
 #. module: account_move_base_import
 #. odoo-python
@@ -617,7 +621,7 @@ msgstr "Тип імпорту"
 #. module: account_move_base_import
 #: model:ir.model.fields,field_description:account_move_base_import.field_account_journal__autovalidate_completed_move
 msgid "Validate fully completed moves"
-msgstr ""
+msgstr "Перевіряти повністю завершені переміщення"
 
 #. module: account_move_base_import
 #. odoo-python

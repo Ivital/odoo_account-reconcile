@@ -44,6 +44,10 @@ msgid ""
 "            You can select one or many reconciliation methods which will\n"
 "            be run sequentially to match the entries between them."
 msgstr ""
+"Профіль узгодження визначає для одного рахунку, як\n"
+"            мають узгоджуватися записи.\n"
+"            Можна вибрати один або кілька методів узгодження, які\n"
+"            послідовно запускатимуться для зіставлення записів між собою."
 
 #. module: account_mass_reconcile
 #: model:ir.model.fields,field_description:account_mass_reconcile.field_account_mass_reconcile__account
@@ -99,7 +103,7 @@ msgstr "Потрібна дія"
 #. module: account_mass_reconcile
 #: model_terms:ir.ui.view,arch_db:account_mass_reconcile.account_mass_reconcile_form
 msgid "Advanced. Partner and Ref"
-msgstr ""
+msgstr "Розширено. Контрагент і посилання"
 
 #. module: account_mass_reconcile
 #: model:ir.model.fields,field_description:account_mass_reconcile.field_account_mass_reconcile__message_attachment_count
@@ -109,7 +113,7 @@ msgstr "Кількість вкладень"
 #. module: account_mass_reconcile
 #: model_terms:ir.ui.view,arch_db:account_mass_reconcile.account_mass_reconcile_form
 msgid "Automatic Mass Reconcile"
-msgstr ""
+msgstr "Автоматичне масове узгодження"
 
 #. module: account_mass_reconcile
 #: model_terms:ir.ui.view,arch_db:account_mass_reconcile.mass_reconcile_history_form
@@ -134,7 +138,7 @@ msgstr ""
 #. module: account_mass_reconcile
 #: model_terms:ir.actions.act_window,help:account_mass_reconcile.action_account_mass_reconcile
 msgid "Click to add a reconciliation profile."
-msgstr ""
+msgstr "Натисніть, щоб додати профіль узгодження."
 
 #. module: account_mass_reconcile
 #: model_terms:ir.ui.view,arch_db:account_mass_reconcile.view_account_config
@@ -222,7 +226,7 @@ msgstr "Показувати позиції, звірені під час ост
 #. module: account_mass_reconcile
 #: model:ir.actions.server,name:account_mass_reconcile.ir_cron_run_reconciliations_ir_actions_server
 msgid "Do Automatic Reconciliations"
-msgstr ""
+msgstr "Виконувати автоматичні узгодження"
 
 #. module: account_mass_reconcile
 #: model:ir.model.fields,field_description:account_mass_reconcile.field_account_mass_reconcile_method___filter
@@ -251,7 +255,7 @@ msgstr "Підписники (контрагенти)"
 #. module: account_mass_reconcile
 #: model:ir.model.fields,field_description:account_mass_reconcile.field_mass_reconcile_history__reconcile_ids
 msgid "Full Reconciliations"
-msgstr ""
+msgstr "Повні узгодження"
 
 #. module: account_mass_reconcile
 #: model_terms:ir.ui.view,arch_db:account_mass_reconcile.account_mass_reconcile_form
@@ -263,7 +267,7 @@ msgstr "Перейти до звірених позицій"
 #. module: account_mass_reconcile
 #: model_terms:ir.ui.view,arch_db:account_mass_reconcile.account_mass_reconcile_form
 msgid "Go to unreconciled items"
-msgstr ""
+msgstr "Перейти до неузгоджених елементів"
 
 #. module: account_mass_reconcile
 #: model_terms:ir.ui.view,arch_db:account_mass_reconcile.view_mass_reconcile_history_search
@@ -293,6 +297,8 @@ msgid ""
 "How often to commit when performing automatic reconciliation.\n"
 "                  Leave zero to commit only at the end of the process."
 msgstr ""
+"Як часто виконувати commit під час автоматичного звіряння.\n"
+"                  Залиште нуль, щоб виконати commit лише наприкінці процесу."
 
 #. module: account_mass_reconcile
 #: model:ir.model.fields,field_description:account_mass_reconcile.field_account_mass_reconcile__id
@@ -309,12 +315,12 @@ msgstr "ID"
 #. module: account_mass_reconcile
 #: model:ir.model.fields,help:account_mass_reconcile.field_account_mass_reconcile__message_needaction
 msgid "If checked, new messages require your attention."
-msgstr ""
+msgstr "Якщо позначено, нові повідомлення потребують вашої уваги."
 
 #. module: account_mass_reconcile
 #: model:ir.model.fields,help:account_mass_reconcile.field_account_mass_reconcile__message_has_error
 msgid "If checked, some messages have a delivery error."
-msgstr ""
+msgstr "Якщо позначено, деякі повідомлення мають помилку доставки."
 
 #. module: account_mass_reconcile
 #: model_terms:ir.ui.view,arch_db:account_mass_reconcile.account_mass_reconcile_form
@@ -384,7 +390,7 @@ msgstr "Масова автоматична звірка"
 #. module: account_mass_reconcile
 #: model:ir.actions.act_window,name:account_mass_reconcile.action_mass_reconcile_history
 msgid "Mass Automatic Reconcile History"
-msgstr ""
+msgstr "Історія масового автоматичного узгодження"
 
 #. module: account_mass_reconcile
 #: model:ir.model,name:account_mass_reconcile.model_mass_reconcile_advanced
@@ -433,6 +439,9 @@ msgid ""
 "reconciliation. The lines should have the same partner, and the credit entry"
 " ref. is matched with the debit entry ref. or name."
 msgstr ""
+"Зіставляйте кілька дебетових записів із кількома кредитовими. Дозволено "
+"часткове узгодження. Рядки повинні мати одного контрагента, а посилання "
+"кредитового запису має збігатися з посиланням або назвою дебетового запису."
 
 #. module: account_mass_reconcile
 #: model_terms:ir.ui.view,arch_db:account_mass_reconcile.account_mass_reconcile_form
@@ -441,6 +450,9 @@ msgid ""
 "reconciliation. The lines should have the same amount (with the write-off) "
 "and the same name to be reconciled."
 msgstr ""
+"Зіставити один дебетовий рядок з одним кредитовим. Не дозволяти часткове "
+"звіряння. Рядки мають мати однакову суму (з урахуванням списання) й однакову"
+" назву."
 
 #. module: account_mass_reconcile
 #: model_terms:ir.ui.view,arch_db:account_mass_reconcile.account_mass_reconcile_form
@@ -449,6 +461,9 @@ msgid ""
 "reconciliation. The lines should have the same amount (with the write-off) "
 "and the same partner to be reconciled."
 msgstr ""
+"Зіставити один дебетовий рядок з одним кредитовим. Не дозволяти часткове "
+"звіряння. Рядки мають мати однакову суму (з урахуванням списання) й одного "
+"партнера."
 
 #. module: account_mass_reconcile
 #: model_terms:ir.ui.view,arch_db:account_mass_reconcile.account_mass_reconcile_form
@@ -457,6 +472,9 @@ msgid ""
 "reconciliation. The lines should have the same amount (with the write-off) "
 "and the same reference to be reconciled."
 msgstr ""
+"Зіставити один дебетовий рядок з одним кредитовим. Не дозволяти часткове "
+"звіряння. Рядки мають мати однакову суму (з урахуванням списання) й однакове"
+" посилання."
 
 #. module: account_mass_reconcile
 #: model:ir.model.fields,field_description:account_mass_reconcile.field_account_mass_reconcile__message_has_error
@@ -491,12 +509,12 @@ msgstr "Кількість помилок"
 #. module: account_mass_reconcile
 #: model:ir.model.fields,help:account_mass_reconcile.field_account_mass_reconcile__message_needaction_counter
 msgid "Number of messages requiring action"
-msgstr ""
+msgstr "Кількість повідомлень, що потребують дії"
 
 #. module: account_mass_reconcile
 #: model:ir.model.fields,help:account_mass_reconcile.field_account_mass_reconcile__message_has_error_counter
 msgid "Number of messages with delivery error"
-msgstr ""
+msgstr "Кількість повідомлень із помилкою доставки"
 
 #. module: account_mass_reconcile
 #: model:ir.model,name:account_mass_reconcile.model_mass_reconcile_options
@@ -516,12 +534,12 @@ msgstr ""
 #. module: account_mass_reconcile
 #: model:ir.model.fields,field_description:account_mass_reconcile.field_mass_reconcile_history__mass_reconcile_id
 msgid "Reconcile Profile"
-msgstr ""
+msgstr "Профіль узгодження"
 
 #. module: account_mass_reconcile
 #: model:ir.model.fields,field_description:account_mass_reconcile.field_mass_reconcile_history__reconcile_line_ids
 msgid "Reconciled Items"
-msgstr ""
+msgstr "Узгоджені елементи"
 
 #. module: account_mass_reconcile
 #: model_terms:ir.ui.view,arch_db:account_mass_reconcile.view_account_config
@@ -539,7 +557,7 @@ msgstr "Звірення"
 #. module: account_mass_reconcile
 #: model_terms:ir.ui.view,arch_db:account_mass_reconcile.view_mass_reconcile_history_search
 msgid "Reconciliations of last 7 days"
-msgstr ""
+msgstr "Узгодження за останні 7 днів"
 
 #. module: account_mass_reconcile
 #: model:ir.model.fields,field_description:account_mass_reconcile.field_mass_reconcile_advanced__partner_ids
@@ -566,27 +584,27 @@ msgstr "Послідовність"
 #. module: account_mass_reconcile
 #: model_terms:ir.ui.view,arch_db:account_mass_reconcile.account_mass_reconcile_form
 msgid "Simple. Amount and Name"
-msgstr ""
+msgstr "Просто. Сума та назва"
 
 #. module: account_mass_reconcile
 #: model_terms:ir.ui.view,arch_db:account_mass_reconcile.account_mass_reconcile_form
 msgid "Simple. Amount and Partner"
-msgstr ""
+msgstr "Просто. Сума та контрагент"
 
 #. module: account_mass_reconcile
 #: model_terms:ir.ui.view,arch_db:account_mass_reconcile.account_mass_reconcile_form
 msgid "Simple. Amount and Reference"
-msgstr ""
+msgstr "Просто. Сума та посилання"
 
 #. module: account_mass_reconcile
 #: model_terms:ir.ui.view,arch_db:account_mass_reconcile.account_mass_reconcile_tree
 msgid "Start Auto Reconcilation"
-msgstr ""
+msgstr "Запустити автоматичне узгодження"
 
 #. module: account_mass_reconcile
 #: model_terms:ir.ui.view,arch_db:account_mass_reconcile.account_mass_reconcile_form
 msgid "Start Auto Reconciliation"
-msgstr ""
+msgstr "Запустити автоматичне узгодження"
 
 #. module: account_mass_reconcile
 #: model:ir.model,name:account_mass_reconcile.model_mass_reconcile_history
@@ -620,7 +638,7 @@ msgstr ""
 #. module: account_mass_reconcile
 #: model_terms:ir.ui.view,arch_db:account_mass_reconcile.view_mass_reconcile_history_search
 msgid "Todays' Reconcilations"
-msgstr ""
+msgstr "Сьогоднішні узгодження"
 
 #. module: account_mass_reconcile
 #: model:ir.model.fields,field_description:account_mass_reconcile.field_account_mass_reconcile_method__name
@@ -630,7 +648,7 @@ msgstr "Тип"
 #. module: account_mass_reconcile
 #: model:ir.model.fields,field_description:account_mass_reconcile.field_account_mass_reconcile__unreconciled_count
 msgid "Unreconciled Items"
-msgstr ""
+msgstr "Неузгоджені елементи"
 
 #. module: account_mass_reconcile
 #. odoo-python
@@ -647,7 +665,7 @@ msgstr "Повідомлення вебсайту"
 #. module: account_mass_reconcile
 #: model:ir.model.fields,help:account_mass_reconcile.field_account_mass_reconcile__website_message_ids
 msgid "Website communication history"
-msgstr ""
+msgstr "Історія комунікації через вебсайт"
 
 #. module: account_mass_reconcile
 #: model:ir.model.fields,field_description:account_mass_reconcile.field_account_mass_reconcile_method__write_off

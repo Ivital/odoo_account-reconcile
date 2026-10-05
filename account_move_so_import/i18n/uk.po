@@ -17,3 +17,13 @@ msgstr ""
 #: model:ir.model.fields,field_description:account_move_so_import.field_account_move_completion_rule__function_to_call
 msgid "Method"
 msgstr "Метод"
+
+#. module: account_move_so_import
+#: model:ir.model.fields.selection,name:account_move_so_import.selection__account_move_completion_rule__function_to_call__get_from_name_and_so
+msgid "From line name (based on SO number)"
+msgstr "З назви рядка (на основі номера замовлення на продаж)"
+
+#. module: account_move_so_import
+#: model:ir.model.fields.selection,name:account_move_so_import.selection__account_move_completion_rule__function_to_call__get_from_name_and_so_payment_ref
+msgid "From line name (based on SO payment ref)"
+msgstr "З назви рядка (на основі посилання платежу SO)"

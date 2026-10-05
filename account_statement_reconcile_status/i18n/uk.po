@@ -36,3 +36,18 @@ msgstr "Не розпочато"
 #: model_terms:ir.ui.view,arch_db:account_statement_reconcile_status.view_bank_statement_search
 msgid "Reconciliation Status"
 msgstr "Статус звірення"
+
+#. module: account_statement_reconcile_status
+#: model_terms:ir.ui.view,arch_db:account_statement_reconcile_status.view_bank_statement_search
+msgid "Changed After Reconciliation"
+msgstr "Змінено після узгодження"
+
+#. module: account_statement_reconcile_status
+#: model:ir.model.fields,field_description:account_statement_reconcile_status.field_account_bank_statement__date_first_fully_reconciled
+msgid "First Fully Reconciled On"
+msgstr "Вперше повністю узгоджено"
+
+#. module: account_statement_reconcile_status
+#: model_terms:ir.ui.view,arch_db:account_statement_reconcile_status.view_bank_statement_form
+msgid "This statement was fully reconciled but has been modified."
+msgstr "Цю виписку було повністю узгоджено, але її змінено."

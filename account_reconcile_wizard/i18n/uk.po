@@ -175,3 +175,48 @@ msgstr "Рядок списання"
 #: model_terms:ir.ui.view,arch_db:account_reconcile_wizard.account_manual_reconcile_wizard_form_view
 msgid "Write-Off"
 msgstr "Списання"
+
+#. module: account_reconcile_wizard
+#: model:ir.model.fields,field_description:account_reconcile_wizard.field_account_manual_reconcile_wizard__allow_partial_reconcile
+msgid "Allow Partial Reconcile"
+msgstr "Дозволити часткове узгодження"
+
+#. module: account_reconcile_wizard
+#: model:ir.model.fields,field_description:account_reconcile_wizard.field_account_manual_reconcile_wizard__balance_difference
+msgid "Balance Difference"
+msgstr "Різниця балансу"
+
+#. module: account_reconcile_wizard
+#: model:ir.model.fields,field_description:account_reconcile_wizard.field_account_manual_reconcile_wizard__display_allow_partial_reconcile
+msgid "Display Allow Partial Reconcile"
+msgstr "Показувати «Дозволити часткове узгодження»"
+
+#. module: account_reconcile_wizard
+#: model_terms:ir.ui.view,arch_db:account_reconcile_wizard.account_manual_reconcile_wizard_form_view
+msgid "Keep open balance"
+msgstr "Залишати баланс відкритим"
+
+#. module: account_reconcile_wizard
+#: model:ir.model.fields,field_description:account_reconcile_wizard.field_account_manual_reconcile_wizard__move_line_ids
+msgid "Move Lines to Reconcile"
+msgstr "Рядки переміщення для узгодження"
+
+#. module: account_reconcile_wizard
+#: model_terms:ir.ui.view,arch_db:account_reconcile_wizard.account_manual_reconcile_wizard_form_view
+msgid "Reconcile & Open"
+msgstr "Узгодити й відкрити"
+
+#. module: account_reconcile_wizard
+#: model:ir.model.fields,field_description:account_reconcile_wizard.field_account_manual_reconcile_wizard__reconciliation_account_id
+msgid "Reconciliation Account"
+msgstr "Рахунок узгодження"
+
+#. module: account_reconcile_wizard
+#: model_terms:ir.ui.view,arch_db:account_reconcile_wizard.account_manual_reconcile_wizard_form_view
+msgid "Reconciliation Models"
+msgstr "Моделі узгодження"
+
+#. module: account_reconcile_wizard
+#: model:ir.model.fields,field_description:account_reconcile_wizard.field_account_manual_reconcile_wizard__write_off_amount
+msgid "Write Off Amount"
+msgstr "Сума списання"

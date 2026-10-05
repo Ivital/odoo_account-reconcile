@@ -96,3 +96,23 @@ msgstr "До отримання"
 #: model:ir.model.fields,field_description:account_reconcile_restrict_partner_mismatch.field_res_config_settings__restrict_partner_mismatch_on_reconcile
 msgid "Restrict Partner Mismatch On Reconcile"
 msgstr "Обмежити невідповідність контрагентів під час звірення"
+
+#. module: account_reconcile_restrict_partner_mismatch
+#: model:ir.model.fields,field_description:account_reconcile_restrict_partner_mismatch.field_account_journal__no_restrict_partner_mismatch_on_reconcile
+msgid "No Restrict Partner Mismatch On Reconcile"
+msgstr "Не обмежувати невідповідність контрагента при узгодженні"
+
+#. module: account_reconcile_restrict_partner_mismatch
+#: model:ir.model.fields,field_description:account_reconcile_restrict_partner_mismatch.field_account_reconcile_partner_mismatch_report__partial_reconcile_id
+msgid "Partial Reconcile"
+msgstr "Часткове узгодження"
+
+#. module: account_reconcile_restrict_partner_mismatch
+#: model_terms:ir.ui.view,arch_db:account_reconcile_restrict_partner_mismatch.view_account_journal_form
+msgid "Partner Mismatch on Reconcile"
+msgstr "Невідповідність контрагента при узгодженні"
+
+#. module: account_reconcile_restrict_partner_mismatch
+#: model_terms:ir.ui.view,arch_db:account_reconcile_restrict_partner_mismatch.res_config_settings_view_form
+msgid "Partners Mismatch Restriction on Reconcile"
+msgstr "Обмеження невідповідності контрагентів при узгодженні"
