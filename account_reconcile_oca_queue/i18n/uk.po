@@ -19,3 +19,9 @@ msgstr ""
 #: model_terms:ir.ui.view,arch_db:account_reconcile_oca_queue.res_config_settings_view_form
 msgid "Auto reconcile in background"
 msgstr "Автоматично звіряти у фоновому режимі"
+
+#. module: account_reconcile_oca_queue
+#: model:ir.model.fields,help:account_reconcile_oca_queue.field_res_company__account_auto_reconcile_queue
+#: model:ir.model.fields,help:account_reconcile_oca_queue.field_res_config_settings__account_auto_reconcile_queue
+msgid "Auto reconcile using queue jobs"
+msgstr "Автоматично звіряти за допомогою завдань черги"

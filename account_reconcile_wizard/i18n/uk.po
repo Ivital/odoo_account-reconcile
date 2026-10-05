@@ -220,3 +220,28 @@ msgstr "Моделі узгодження"
 #: model:ir.model.fields,field_description:account_reconcile_wizard.field_account_manual_reconcile_wizard__write_off_amount
 msgid "Write Off Amount"
 msgstr "Сума списання"
+
+#. module: account_reconcile_wizard
+#: model:ir.model,name:account_reconcile_wizard.model_account_manual_reconcile_wizard_line
+msgid "Account Manual Reconcile Line"
+msgstr "Рядок ручного звіряння рахунку"
+
+#. module: account_reconcile_wizard
+#: model:ir.model.fields,help:account_reconcile_wizard.field_account_manual_reconcile_wizard__write_off_line_ids
+msgid "Add lines for write-offs, adjustments, counterparts, etc."
+msgstr "Додати рядки для списань, коригувань, кореспондуючих проводок тощо."
+
+#. module: account_reconcile_wizard
+#: model:ir.model.fields,help:account_reconcile_wizard.field_account_manual_reconcile_wizard__allow_partial_reconcile
+msgid "Allow reconciliation even if balances do not match exactly"
+msgstr "Дозволити звірку, навіть якщо залишки не збігаються точно"
+
+#. module: account_reconcile_wizard
+#: model:ir.model,name:account_reconcile_wizard.model_account_manual_reconcile_wizard
+msgid "Manual Reconciliation Wizard"
+msgstr "Майстер ручного звіряння"
+
+#. module: account_reconcile_wizard
+#: model:ir.model.fields,help:account_reconcile_wizard.field_account_manual_reconcile_wizard__reconcile_model_id
+msgid "Select a reconciliation model to auto-load lines"
+msgstr "Виберіть модель звіряння для автоматичного завантаження рядків"

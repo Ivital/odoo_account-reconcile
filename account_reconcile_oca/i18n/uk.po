@@ -588,3 +588,23 @@ msgstr "буде зменшено на"
 #: model_terms:ir.ui.view,arch_db:account_reconcile_oca.bank_statement_line_form_reconcile_view
 msgid "with an open amount"
 msgstr "з відкритою сумою"
+
+#. module: account_reconcile_oca
+#: model:ir.model,name:account_reconcile_oca.model_account_account_reconcile
+msgid "Account Account Reconcile"
+msgstr "Звіряння бухгалтерського рахунку"
+
+#. module: account_reconcile_oca
+#: model:ir.model,name:account_reconcile_oca.model_account_reconcile_abstract
+msgid "Account Reconcile Abstract"
+msgstr "Абстракція звіряння рахунків"
+
+#. module: account_reconcile_oca
+#: model:ir.model.fields,help:account_reconcile_oca.field_account_journal__reconcile_aggregate
+msgid "Aggregation to use on reconcile view"
+msgstr "Агрегація для представлення звіряння"
+
+#. module: account_reconcile_oca
+#: model:ir.model,name:account_reconcile_oca.model_account_account_reconcile_data
+msgid "Reconcile data model to store user info"
+msgstr "Модель даних звіряння для зберігання інформації користувача"

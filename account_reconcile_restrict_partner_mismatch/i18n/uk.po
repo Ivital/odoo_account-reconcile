@@ -116,3 +116,16 @@ msgstr "Невідповідність контрагента при узгод�
 #: model_terms:ir.ui.view,arch_db:account_reconcile_restrict_partner_mismatch.res_config_settings_view_form
 msgid "Partners Mismatch Restriction on Reconcile"
 msgstr "Обмеження невідповідності контрагентів при узгодженні"
+
+#. module: account_reconcile_restrict_partner_mismatch
+#: model:ir.model,name:account_reconcile_restrict_partner_mismatch.model_account_reconcile_partner_mismatch_report
+msgid "Account Reconcile Partner Mismatch Report"
+msgstr "Звіт про невідповідність партнера під час звіряння"
+
+#. module: account_reconcile_restrict_partner_mismatch
+#: model:ir.model.fields,help:account_reconcile_restrict_partner_mismatch.field_account_journal__no_restrict_partner_mismatch_on_reconcile
+msgid ""
+"Check this if you don't want to restrict partner mismatch (several "
+"differents) on reconcile."
+msgstr ""
+"Позначте, якщо не потрібно обмежувати різних партнерів під час звіряння."

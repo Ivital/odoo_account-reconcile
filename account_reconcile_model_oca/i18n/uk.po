@@ -17,3 +17,12 @@ msgstr ""
 #: model:ir.model.fields,field_description:account_reconcile_model_oca.field_account_reconcile_model__unique_matching
 msgid "Unique match"
 msgstr "Унікальний збіг"
+
+#. module: account_reconcile_model_oca
+#: model:ir.model.fields,help:account_reconcile_model_oca.field_account_reconcile_model__unique_matching
+msgid ""
+"If this box is checked, counterparts will only be suggested if only one "
+"possible counterpart is found."
+msgstr ""
+"Якщо прапорець установлено, кореспондуючі записи пропонуватимуться лише коли"
+" знайдено рівно один можливий варіант."

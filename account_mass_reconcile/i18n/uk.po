@@ -79,7 +79,7 @@ msgstr "Втрачений рахунок"
 #. module: account_mass_reconcile
 #: model:ir.model,name:account_mass_reconcile.model_account_mass_reconcile
 msgid "Account Mass Reconcile"
-msgstr ""
+msgstr "Масове звіряння рахунків"
 
 #. module: account_mass_reconcile
 #: model:ir.model.fields,field_description:account_mass_reconcile.field_account_mass_reconcile_method__account_profit_id
@@ -379,7 +379,7 @@ msgstr "Остання історія"
 #: model:ir.model.fields,help:account_mass_reconcile.field_res_company__reconciliation_commit_every
 #: model:ir.model.fields,help:account_mass_reconcile.field_res_config_settings__reconciliation_commit_every
 msgid "Leave zero to commit only at the end of the process."
-msgstr ""
+msgstr "Залиште нуль, щоб виконати фіксацію лише наприкінці процесу."
 
 #. module: account_mass_reconcile
 #: model:ir.actions.act_window,name:account_mass_reconcile.action_account_mass_reconcile
@@ -395,42 +395,42 @@ msgstr "Історія масового автоматичного узгодж�
 #. module: account_mass_reconcile
 #: model:ir.model,name:account_mass_reconcile.model_mass_reconcile_advanced
 msgid "Mass Reconcile Advanced"
-msgstr ""
+msgstr "Розширене масове звіряння"
 
 #. module: account_mass_reconcile
 #: model:ir.model,name:account_mass_reconcile.model_mass_reconcile_advanced_name
 msgid "Mass Reconcile Advanced Name"
-msgstr ""
+msgstr "Назва розширеного масового звіряння"
 
 #. module: account_mass_reconcile
 #: model:ir.model,name:account_mass_reconcile.model_mass_reconcile_advanced_ref
 msgid "Mass Reconcile Advanced Ref"
-msgstr ""
+msgstr "Посилання розширеного масового звіряння"
 
 #. module: account_mass_reconcile
 #: model:ir.model,name:account_mass_reconcile.model_mass_reconcile_base
 msgid "Mass Reconcile Base"
-msgstr ""
+msgstr "База масового звіряння"
 
 #. module: account_mass_reconcile
 #: model:ir.model,name:account_mass_reconcile.model_mass_reconcile_simple
 msgid "Mass Reconcile Simple"
-msgstr ""
+msgstr "Просте масове звіряння"
 
 #. module: account_mass_reconcile
 #: model:ir.model,name:account_mass_reconcile.model_mass_reconcile_simple_name
 msgid "Mass Reconcile Simple Name"
-msgstr ""
+msgstr "Назва простого масового звіряння"
 
 #. module: account_mass_reconcile
 #: model:ir.model,name:account_mass_reconcile.model_mass_reconcile_simple_partner
 msgid "Mass Reconcile Simple Partner"
-msgstr ""
+msgstr "Партнер простого масового звіряння"
 
 #. module: account_mass_reconcile
 #: model:ir.model,name:account_mass_reconcile.model_mass_reconcile_simple_reference
 msgid "Mass Reconcile Simple Reference"
-msgstr ""
+msgstr "Посилання простого масового звіряння"
 
 #. module: account_mass_reconcile
 #: model_terms:ir.ui.view,arch_db:account_mass_reconcile.account_mass_reconcile_form
@@ -519,7 +519,7 @@ msgstr "Кількість повідомлень із помилкою дост
 #. module: account_mass_reconcile
 #: model:ir.model,name:account_mass_reconcile.model_mass_reconcile_options
 msgid "Options of a reconciliation profile"
-msgstr ""
+msgstr "Параметри профілю звіряння"
 
 #. module: account_mass_reconcile
 #: model_terms:ir.ui.view,arch_db:account_mass_reconcile.account_mass_reconcile_form
@@ -529,7 +529,7 @@ msgstr "Інформація профілю"
 #. module: account_mass_reconcile
 #: model:ir.model,name:account_mass_reconcile.model_account_mass_reconcile_method
 msgid "Reconcile Method for account_mass_reconcile"
-msgstr ""
+msgstr "Метод звіряння для account_mass_reconcile"
 
 #. module: account_mass_reconcile
 #: model:ir.model.fields,field_description:account_mass_reconcile.field_mass_reconcile_history__mass_reconcile_id
@@ -609,7 +609,7 @@ msgstr "Запустити автоматичне узгодження"
 #. module: account_mass_reconcile
 #: model:ir.model,name:account_mass_reconcile.model_mass_reconcile_history
 msgid "Store an history of the runs per profile"
-msgstr ""
+msgstr "Зберігати історію запусків за профілем"
 
 #. module: account_mass_reconcile
 #: model:ir.model.fields,field_description:account_mass_reconcile.field_account_mass_reconcile_method__task_id
@@ -619,7 +619,7 @@ msgstr "Завдання"
 #. module: account_mass_reconcile
 #: model:ir.model.fields,help:account_mass_reconcile.field_account_mass_reconcile_method__sequence
 msgid "The sequence field is used to order the reconcile method"
-msgstr ""
+msgstr "Поле послідовності використовується для впорядкування методу звірки"
 
 #. module: account_mass_reconcile
 #. odoo-python
