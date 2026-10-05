@@ -44,3 +44,55 @@ msgstr "Відображувана назва"
 #: model_terms:ir.ui.view,arch_db:account_reconcile_restrict_partner_mismatch.account_reconcile_partner_mismatch_report_view_form
 msgid "Reconciled items with partner mismatch"
 msgstr "Звірені позиції з невідповідністю партнера"
+
+#. module: account_reconcile_restrict_partner_mismatch
+#: model:ir.model.fields,help:account_reconcile_restrict_partner_mismatch.field_res_company__restrict_partner_mismatch_on_reconcile
+#: model:ir.model.fields,help:account_reconcile_restrict_partner_mismatch.field_res_config_settings__restrict_partner_mismatch_on_reconcile
+#: model_terms:ir.ui.view,arch_db:account_reconcile_restrict_partner_mismatch.res_config_settings_view_form
+msgid ""
+"Check this if you want to avoid partner mismatch (several different "
+"partners) on reconciliation."
+msgstr ""
+"Увімкніть це, щоб уникнути невідповідності контрагентів (кількох різних "
+"контрагентів) під час звірення."
+
+#. module: account_reconcile_restrict_partner_mismatch
+#: model:ir.model.fields,field_description:account_reconcile_restrict_partner_mismatch.field_account_reconcile_partner_mismatch_report__credit_amount
+msgid "Credit amount"
+msgstr "Сума кредиту"
+
+#. module: account_reconcile_restrict_partner_mismatch
+#: model:ir.model.fields,field_description:account_reconcile_restrict_partner_mismatch.field_account_reconcile_partner_mismatch_report__credit_partner_id
+msgid "Credit partner"
+msgstr "Партнер кредиту"
+
+#. module: account_reconcile_restrict_partner_mismatch
+#: model:ir.model.fields,field_description:account_reconcile_restrict_partner_mismatch.field_account_reconcile_partner_mismatch_report__debit_amount
+msgid "Debit amount"
+msgstr "Сума дебету"
+
+#. module: account_reconcile_restrict_partner_mismatch
+#: model:ir.model.fields,field_description:account_reconcile_restrict_partner_mismatch.field_account_reconcile_partner_mismatch_report__debit_partner_id
+msgid "Debit partner"
+msgstr "Дебетовий контрагент"
+
+#. module: account_reconcile_restrict_partner_mismatch
+#: model:ir.model.fields,field_description:account_reconcile_restrict_partner_mismatch.field_account_reconcile_partner_mismatch_report__full_reconcile_id
+msgid "Full Reconcile"
+msgstr "Повне звіряння"
+
+#. module: account_reconcile_restrict_partner_mismatch
+#: model:ir.model.fields.selection,name:account_reconcile_restrict_partner_mismatch.selection__account_reconcile_partner_mismatch_report__account_type__liability_payable
+msgid "Payable"
+msgstr "До сплати"
+
+#. module: account_reconcile_restrict_partner_mismatch
+#: model:ir.model.fields.selection,name:account_reconcile_restrict_partner_mismatch.selection__account_reconcile_partner_mismatch_report__account_type__asset_receivable
+msgid "Receivable"
+msgstr "До отримання"
+
+#. module: account_reconcile_restrict_partner_mismatch
+#: model:ir.model.fields,field_description:account_reconcile_restrict_partner_mismatch.field_res_company__restrict_partner_mismatch_on_reconcile
+#: model:ir.model.fields,field_description:account_reconcile_restrict_partner_mismatch.field_res_config_settings__restrict_partner_mismatch_on_reconcile
+msgid "Restrict Partner Mismatch On Reconcile"
+msgstr "Обмежити невідповідність контрагентів під час звірення"

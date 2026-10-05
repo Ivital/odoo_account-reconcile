@@ -95,3 +95,83 @@ msgstr "Успішно"
 #: model:ir.model.fields,field_description:account_reconcile_wizard.field_account_manual_reconcile_wizard_line__wizard_id
 msgid "Wizard"
 msgstr "Майстер"
+
+#. module: account_reconcile_wizard
+#: model:ir.model.fields,field_description:account_reconcile_wizard.field_account_manual_reconcile_wizard_line__analytic_distribution
+msgid "Analytic Distribution"
+msgstr "Аналітичний розподіл"
+
+#. module: account_reconcile_wizard
+#: model:ir.model.fields,field_description:account_reconcile_wizard.field_account_manual_reconcile_wizard_line__analytic_precision
+msgid "Analytic Precision"
+msgstr "Точність аналітики"
+
+#. module: account_reconcile_wizard
+#: model_terms:ir.ui.view,arch_db:account_reconcile_wizard.account_manual_reconcile_wizard_form_view
+msgid "Cancel"
+msgstr "Скасувати"
+
+#. module: account_reconcile_wizard
+#: model:ir.model.fields,field_description:account_reconcile_wizard.field_account_manual_reconcile_wizard__company_currency_id
+msgid "Company Currency"
+msgstr "Валюта компанії"
+
+#. module: account_reconcile_wizard
+#: model:ir.model.fields,field_description:account_reconcile_wizard.field_account_manual_reconcile_wizard_line__distribution_analytic_account_ids
+msgid "Distribution Analytic Account"
+msgstr "Аналітичний рахунок розподілу"
+
+#. module: account_reconcile_wizard
+#: model:ir.model.fields,field_description:account_reconcile_wizard.field_account_manual_reconcile_wizard__write_uid
+#: model:ir.model.fields,field_description:account_reconcile_wizard.field_account_manual_reconcile_wizard_line__write_uid
+msgid "Last Updated by"
+msgstr "Останнє оновлення ким"
+
+#. module: account_reconcile_wizard
+#: model:ir.model.fields,field_description:account_reconcile_wizard.field_account_manual_reconcile_wizard__write_date
+#: model:ir.model.fields,field_description:account_reconcile_wizard.field_account_manual_reconcile_wizard_line__write_date
+msgid "Last Updated on"
+msgstr "Останнє оновлення"
+
+#. module: account_reconcile_wizard
+#: model:ir.model.fields,field_description:account_reconcile_wizard.field_account_manual_reconcile_wizard__need_transfer
+msgid "Need Transfer"
+msgstr "Потрібне переміщення"
+
+#. module: account_reconcile_wizard
+#: model:ir.model.fields,field_description:account_reconcile_wizard.field_account_manual_reconcile_wizard__need_write_off
+msgid "Need Write Off"
+msgstr "Потрібне списання"
+
+#. module: account_reconcile_wizard
+#: model:ir.model.fields,field_description:account_reconcile_wizard.field_account_manual_reconcile_wizard__reconcile_model_id
+msgid "Reconcile Model"
+msgstr "Модель звіряння"
+
+#. module: account_reconcile_wizard
+#. odoo-python
+#: code:addons/account_reconcile_wizard/models/account_move_line.py:0
+msgid "Reconciliation"
+msgstr "Звірення"
+
+#. module: account_reconcile_wizard
+#: model_terms:ir.ui.view,arch_db:account_reconcile_wizard.account_manual_reconcile_wizard_form_view
+msgid "Total Credit"
+msgstr "Загальний кредит"
+
+#. module: account_reconcile_wizard
+#: model_terms:ir.ui.view,arch_db:account_reconcile_wizard.account_manual_reconcile_wizard_form_view
+msgid "Total Debit"
+msgstr "Загальний дебет"
+
+#. module: account_reconcile_wizard
+#: model:ir.model.fields,field_description:account_reconcile_wizard.field_account_manual_reconcile_wizard__write_off_line_ids
+msgid "Write Off Line"
+msgstr "Рядок списання"
+
+#. module: account_reconcile_wizard
+#. odoo-python
+#: code:addons/account_reconcile_wizard/wizard/account_manual_reconcile_wizard.py:0
+#: model_terms:ir.ui.view,arch_db:account_reconcile_wizard.account_manual_reconcile_wizard_form_view
+msgid "Write-Off"
+msgstr "Списання"

@@ -52,12 +52,12 @@ msgstr ""
 #. module: account_move_base_import
 #: model_terms:ir.ui.view,arch_db:account_move_base_import.view_move_importer_form
 msgid "Auto Completion"
-msgstr ""
+msgstr "Автозавершення"
 
 #. module: account_move_base_import
 #: model:ir.model.fields,field_description:account_move_base_import.field_account_move_line__already_completed
 msgid "Auto-Completed"
-msgstr ""
+msgstr "Автозавершено"
 
 #. module: account_move_base_import
 #: model_terms:ir.ui.view,arch_db:account_move_base_import.journal_importer_view_form
@@ -78,7 +78,7 @@ msgstr ""
 #: model:ir.model.fields,field_description:account_move_base_import.field_res_partner__bank_statement_label
 #: model:ir.model.fields,field_description:account_move_base_import.field_res_users__bank_statement_label
 msgid "Bank Statement Label"
-msgstr ""
+msgstr "Мітка банківської виписки"
 
 #. module: account_move_base_import
 #: model:ir.model.fields,field_description:account_move_base_import.field_account_journal__partner_id
@@ -89,7 +89,7 @@ msgstr ""
 #. module: account_move_base_import
 #: model_terms:ir.ui.view,arch_db:account_move_base_import.move_importer_view
 msgid "Cancel"
-msgstr ""
+msgstr "Скасувати"
 
 #. module: account_move_base_import
 #: model:ir.model.fields,help:account_move_base_import.field_account_journal__receivable_account_id
@@ -128,7 +128,7 @@ msgstr ""
 #: model:ir.model.fields,field_description:account_move_base_import.field_account_journal__commission_account_id
 #: model:ir.model.fields,field_description:account_move_base_import.field_credit_statement_import__commission_account_id
 msgid "Commission account"
-msgstr ""
+msgstr "Рахунок комісії"
 
 #. module: account_move_base_import
 #. odoo-python
@@ -146,12 +146,12 @@ msgstr ""
 #: model:ir.model.fields,field_description:account_move_base_import.field_account_bank_statement_line__completion_logs
 #: model:ir.model.fields,field_description:account_move_base_import.field_account_move__completion_logs
 msgid "Completion Log"
-msgstr ""
+msgstr "Журнал завершення"
 
 #. module: account_move_base_import
 #: model_terms:ir.ui.view,arch_db:account_move_base_import.view_move_importer_form
 msgid "Completion Logs"
-msgstr ""
+msgstr "Журнал завершень"
 
 #. module: account_move_base_import
 #: model:ir.model,name:account_move_base_import.model_res_partner
@@ -309,12 +309,12 @@ msgstr ""
 #. module: account_move_base_import
 #: model_terms:ir.ui.view,arch_db:account_move_base_import.move_importer_view
 msgid "Import file"
-msgstr ""
+msgstr "Імпортувати файл"
 
 #. module: account_move_base_import
 #: model_terms:ir.ui.view,arch_db:account_move_base_import.move_importer_view
 msgid "Import move"
-msgstr ""
+msgstr "Імпортувати переміщення"
 
 #. module: account_move_base_import
 #: model_terms:ir.ui.view,arch_db:account_move_base_import.journal_importer_view_form
@@ -365,7 +365,7 @@ msgstr ""
 #: model:ir.model.fields,field_description:account_move_base_import.field_account_journal__used_for_completion
 #: model:ir.model.fields,field_description:account_move_base_import.field_account_move__used_for_completion
 msgid "Journal used for completion"
-msgstr ""
+msgstr "Журнал, що використовується для завершення"
 
 #. module: account_move_base_import
 #: model:ir.model.fields,field_description:account_move_base_import.field_account_journal__used_for_import
@@ -375,7 +375,7 @@ msgstr ""
 #. module: account_move_base_import
 #: model:ir.model.fields,field_description:account_move_base_import.field_account_journal__last_import_date
 msgid "Last Import Date"
-msgstr ""
+msgstr "Дата останнього імпорту"
 
 #. module: account_move_base_import
 #: model:ir.model.fields,field_description:account_move_base_import.field_account_move_completion_rule__write_uid
@@ -516,7 +516,7 @@ msgstr ""
 #: model:ir.model.fields,field_description:account_move_base_import.field_account_bank_statement_line__import_partner_id
 #: model:ir.model.fields,field_description:account_move_base_import.field_account_move__import_partner_id
 msgid "Partner from import"
-msgstr ""
+msgstr "Контрагент з імпорту"
 
 #. module: account_move_base_import
 #. odoo-python
@@ -537,7 +537,7 @@ msgstr ""
 #: model:ir.model.fields,field_description:account_move_base_import.field_account_journal__receivable_account_id
 #: model:ir.model.fields,field_description:account_move_base_import.field_credit_statement_import__receivable_account_id
 msgid "Receivable/Payable Account"
-msgstr ""
+msgstr "Дебіторський/кредиторський рахунок"
 
 #. module: account_move_base_import
 #: model_terms:ir.ui.view,arch_db:account_move_base_import.move_completion_rule_view_form
@@ -570,7 +570,7 @@ msgstr ""
 #. module: account_move_base_import
 #: model:ir.model.fields,field_description:account_move_base_import.field_credit_statement_import__input_statement
 msgid "Statement file"
-msgstr ""
+msgstr "Файл виписки"
 
 #. module: account_move_base_import
 #. odoo-python
@@ -600,7 +600,7 @@ msgstr ""
 #. module: account_move_base_import
 #: model_terms:ir.ui.view,arch_db:account_move_base_import.view_account_move_filter
 msgid "To Complete"
-msgstr ""
+msgstr "До завершення"
 
 #. module: account_move_base_import
 #: model:ir.model.fields,help:account_move_base_import.field_account_journal__split_counterpart
@@ -612,7 +612,7 @@ msgstr ""
 #. module: account_move_base_import
 #: model:ir.model.fields,field_description:account_move_base_import.field_account_journal__import_type
 msgid "Type of import"
-msgstr ""
+msgstr "Тип імпорту"
 
 #. module: account_move_base_import
 #: model:ir.model.fields,field_description:account_move_base_import.field_account_journal__autovalidate_completed_move
